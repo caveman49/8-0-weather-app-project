@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Me Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="./index.js"></script>
+  </head>
+  <body>
+    <main class="display">
+      <form>
+        <h1>Weather App</h1>
+        <label for="search-text">Choose a location</label>
+        <input type="text" id="search-text" name="search" />
+        <input type="submit" value="Get Weather" />
+      </form>
+      <section class="current">
+        <h2></h2>
+        <p id="areaP"><span class="bold"></span><span id="area"></span></p>
+        <p id="regionP"><span class="bold"></span><span id="region"></span></p>
+        <p id="countryP"><span class="bold"></span><span id="country"></span></p>
+        <p id="feelsP"><span class="bold"></span><span id="feels"></span></p>
+      </section>
+      <aside class="history">
+        <p>Previous Searches</p>
+      </aside>
+    </main>
+  </body>
+</html>
